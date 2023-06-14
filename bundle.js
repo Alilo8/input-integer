@@ -99,10 +99,6 @@ function handle_onkeyup (e, input) {
 }
 function handle_onblur(e, input){
     const val = Number(e.target.value);
-
-    const len = val.toString().length;
-    const min_len = input.min.toString().length;
-    
-    if(len < min_len) input.value = null;
+    if(val < input.min) input.value = null;
 }
 },{}]},{},[1]);
