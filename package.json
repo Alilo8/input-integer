@@ -1,0 +1,25 @@
+{
+  "name": "input-integer",
+  "version": "0.0.0",
+  "description": "ui component",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alilo8/input-integer.git"
+  },
+  "keywords": [
+    "slider"
+  ],
+  "author": "AliHxn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alilo8/input-integer/issues"
+  },
+  "homepage": "https://github.com/Alilo8/input-integer#readme",
+  "devDependencies": {
+    "budo": "^11.8.4"
+  }
+}
